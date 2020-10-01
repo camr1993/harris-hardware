@@ -1,0 +1,49 @@
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.harris-stall {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+
+.harris-stall > img {
+  height: 450px;
+  width: auto;
+}
+
+.harris-pieces {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.harris-pieces > a {
+  padding-left: 3em;
+  padding-right: 3em;
+  width: 56px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 600;
+}
+
+.harris-pieces img {
+  width: 90%;
+  height: auto;
+}
+
+.harris-pieces img:hover {
+  width: 100%;
+}
+
+.harris-label {
+  color: black;
+}
